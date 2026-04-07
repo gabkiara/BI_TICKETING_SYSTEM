@@ -7,110 +7,153 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BI_TICKETING_SYSTEM
+namespace BI_TICKETING_SYSTEM.Pages
 {
 
 
-    public partial class SiteMaster
+    public partial class UserProfile
     {
 
         /// <summary>
-        /// HeadContent control.
+        /// pnlSuccess control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
+        protected global::System.Web.UI.WebControls.Panel pnlSuccess;
 
         /// <summary>
-        /// form1 control.
+        /// lblSuccess control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Label lblSuccess;
 
         /// <summary>
-        /// lblUsername control.
+        /// pnlError control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblUsername;
+        protected global::System.Web.UI.WebControls.Panel pnlError;
 
         /// <summary>
-        /// btnLogout control.
+        /// lblError control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btnLogout;
+        protected global::System.Web.UI.WebControls.Label lblError;
 
         /// <summary>
-        /// lblSidebarUser control.
+        /// txtLastName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSidebarUser;
+        protected global::System.Web.UI.WebControls.TextBox txtLastName;
 
         /// <summary>
-        /// lblSidebarRole control.
+        /// txtFirstName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSidebarRole;
+        protected global::System.Web.UI.WebControls.TextBox txtFirstName;
 
         /// <summary>
-        /// pnlTicketsMenu control.
+        /// txtMiddleName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlTicketsMenu;
+        protected global::System.Web.UI.WebControls.TextBox txtMiddleName;
 
         /// <summary>
-        /// pnlAdminMenu control.
+        /// txtGender control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlAdminMenu;
+        protected global::System.Web.UI.WebControls.TextBox txtGender;
 
         /// <summary>
-        /// pnlSupportMenu control.
+        /// txtDOB control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlSupportMenu;
+        protected global::System.Web.UI.WebControls.TextBox txtDOB;
 
         /// <summary>
-        /// MainContent control.
+        /// txtEditLastName control.
         /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.TextBox txtEditLastName;
 
         /// <summary>
-        /// ScriptsContent control.
+        /// txtEditFirstName control.
+        /// </summary>
+        protected global::System.Web.UI.WebControls.TextBox txtEditFirstName;
+
+        /// <summary>
+        /// txtEditMiddleName control.
+        /// </summary>
+        protected global::System.Web.UI.WebControls.TextBox txtEditMiddleName;
+
+        /// <summary>
+        /// ddlEditGender control.
+        /// </summary>
+        protected global::System.Web.UI.WebControls.DropDownList ddlEditGender;
+
+        /// <summary>
+        /// txtEditDOB control.
+        /// </summary>
+        protected global::System.Web.UI.WebControls.TextBox txtEditDOB;
+
+        /// <summary>
+        /// txtEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ScriptsContent;
+        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+
+        /// <summary>
+        /// txtRole control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtRole;
+
+        /// <summary>
+        /// txtNewPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtNewPassword;
+
+        /// <summary>
+        /// btnSavePassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSavePassword;
     }
 }
